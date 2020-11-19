@@ -26,26 +26,27 @@
 				<img class="logo" src="/images/logo-white-vulcan.svg" alt="Vulcan logo">
 			</li>	
 			<!-- add call icon -->
-			<li>+1 712-642-2755</li> 
+			<li><a href="tel: 1-712-6422755">+1 712-642-2755</a></li> 
 			<!-- add mail icon -->
 			<li>Contact Us</li>
 		</ul>
 	</div>
-	<nav>
+	<button class="ham"></button>
+	<nav class="navbar">
 		<ul>
 			<li><a href="#0">About</a></li>
-			<li>Products</li>
-			<li>Services</li>
-			<li>Parts</li>
-			<li>News</li>
-			<li>Contact</li>
+			<li><a href="#0">Products</a></li>
+			<li><a href="#0">Services</a></li>
+			<li><a href="#0">Parts</a></li>
+			<li><a href="#0">News</a></li>
+			<li><a href="#0">Contact</a></li>
 		</ul>
 	</nav>
 
 	<div class="slides">
 		<h1>We design and fabricate indestructibel wastewater screens. Enough said.</h1>
-		<button>Vew products</button>
-		<button>View Services</button>
+		<a href="#0">Vew products</a>
+		<a href="#0">View Services</a>
 	</div>
 
 	
@@ -88,35 +89,50 @@
 					<option value="select">Select</option>
 				</select>
 			</div>
-			
-			<button type="submit">Find My Product</button>
+
+			<div class="form-group form-select-group">
+				<label for="screen-location">Screen Location</label>
+				<select name="screen-location" id="screen-location">
+					<option value="select">Select</option>
+				</select>
+			</div>
+
+			<div class="form-group form-select-group">
+				<label for="flow-type">Flow Type</label>
+				<select name="flow-type" id="flow-type">
+					<option value="select">Select</option>
+				</select>
+			</div>
+
+			<div class="form-group form-select-group">
+				<label for="channel-width">Channel Width</label>
+				<select name="channel-width" id="channel-width">
+					<option value="select">Select</option>
+				</select>
+			</div>
+			<div class="form-group form-select-group">
+				<label for="channel-width">Channel Depth</label>
+				<select name="channel-width" id="channel-width">
+					<option value="select">Select</option>
+				</select>
+			</div>
+			<button type="submit" value="submit">Find My Product</button>
 
 		</form>
-<!--
-		<div>
-			<select name="product type" id="p-t">Product Type</select>
-			<select name="screen-location" id="s-l">Screen Location</select>
-			<select name="flow-type" id="f-t">Flow Type</select>
-			<select name="channel-depth" id="c-d">Channel Depth</select>
-			<select name="channel-width" id="c-w">Channel Width</select>
-		</div>
-
-		-->
-
 		
 	</section>
 		
 	<section class="third-section">
 		<h2>Delivering clean, sage water since 1975. Refreshing indeed.</h2>
 		<p>Vulcan wastewater screening equipment has played a vital role in protecting the water supply more than 900 cities and communities throughout the world.</p>
-		<button>About Us</button>
+		<a href="#0">About Us</a>
 	</section>
 
 	<section class="video-section">
 		<video width="320" height="240" controls>
 			<source src="https://vimeo.com/183929811" >
 		  Your browser does not support the video tag.
-		  </video>
+		</video>
 	</section>
 
 </main>
@@ -131,7 +147,6 @@
 			</div>
 			<button type="submit">Submit</button>
 		</form>
-		
 	</section>
 
 	<section class="footer-section2">
@@ -156,10 +171,10 @@
 			<li></li>
 			<li>+1 712 642 2755</li>
 			<li>Contact us</li>
-			<li>Copyrigh 2017. All Rights Reserved</li>
+			<li>Copyright 2017. All Rights Reserved</li>
 		</ul>
-
 	</section>
+	
 </footer>
 
 <!-- *** IMPORTANT *** If you do not require the jQuery Library then feel free to delete the next line -->
