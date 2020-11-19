@@ -2,20 +2,19 @@
 
 // resets
 @import "reset";
+@import "typography";
 
 //variables
 @import "variables";
 @import "mixins";
 
-@import "typography";
-
 //html elements
+@import "slides";
 @import "nav";
 @import "hamburger-menu";
-
 @import "header";
 @import "wrapper";
-@import "slides";
+
 @import "white-background";
 @import "form";
 @import "about";
@@ -23,5 +22,5 @@
 
 @import "footer-s1";
 @import "footer-s2";
-@import "_footer-s3";
+@import "footer-s3";
 

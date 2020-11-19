@@ -15,168 +15,198 @@
 	<link rel="stylesheet" href="styles/styles.css?cb=1">
 </head>
 <body>
+	<div clas="wrapper">
 <!-- Put your HTML code here... -->
 
-<header>
-	<div class = "top-header">
-		<ul>
-			<li>Install Map</li>
-			<li>Product Literature</li>
-			<li>
-				<img class="logo" src="/images/logo-white-vulcan.svg" alt="Vulcan logo">
-			</li>	
-			<!-- add call icon -->
-			<li><a href="tel: 1-712-6422755">+1 712-642-2755</a></li> 
-			<!-- add mail icon -->
-			<li>Contact Us</li>
-		</ul>
-	</div>
-	<button class="ham"></button>
-	<nav class="navbar">
-		<ul>
-			<li><a href="#0">About</a></li>
-			<li><a href="#0">Products</a></li>
-			<li><a href="#0">Services</a></li>
-			<li><a href="#0">Parts</a></li>
-			<li><a href="#0">News</a></li>
-			<li><a href="#0">Contact</a></li>
-		</ul>
-	</nav>
-
-	<div class="slides">
-		<h1>We design and fabricate indestructibel wastewater screens. Enough said.</h1>
-		<a href="#0">Vew products</a>
-		<a href="#0">View Services</a>
-	</div>
-
-	
-</header>
-<main>
-	<section class="white-background">
-		<h2>Customized per order</h2>
-		<p>
-			Just as no two treatment plants are the same, no two of our screening, grit handling or sludge thickening products are either. We'll help determine exactly what you need.
-		</p>
-
-		<div>
-			<h3>Screening</h3>
-			<a href="#0">View Selection</a>
-		</div>
-		<div>
-			<h3>Screenings Handling</h3>
-			<a href="#0">View Selection</a>
-		</div>
-		<div>
-			<h3>Grit Handling</h3>
-			<a href="#0">View Selection</a>
-		</div>
-		<div>
-			<h3>Sludge thickening</h3>
-			<a href="#0">View Selection</a>
-		</div>
-	</section>
-
-	<section class="product-selection">
-		<h2>Product Advisor</h2>
-		<h3>Find your project's perfect fit.</h3>
-		<span id = "br-line"></span>
-
-		<form action="/">
-		
-			<div class="form-group form-select-group">
-				<label for="product-type">Product Type</label>
-				<select name="product-type" id="product-type">
-					<option value="select">Select</option>
-				</select>
+		<header>
+			<div class = "top-header">
+				<ul>
+					<li>Install Map</li>
+					<li>Product Literature</li>
+					<li>
+						<img class="logo" src="/images/logo-white-vulcan.svg" alt="Vulcan logo">
+					</li>	
+					<!-- add call icon -->
+					<li><a href="tel: 1-712-6422755">+1 712-642-2755</a></li> 
+					<!-- add mail icon -->
+					<li>Contact Us</li>
+				</ul>
 			</div>
+			
+			<!-------------- hamburger menu ---------------->
+			<button class="ham"></button>
+			<nav class="navbar">
+				<ul>
+					<li><a href="#0">About</a></li>
+					<li><a href="#0">Products</a></li>
+					<li><a href="#0">Services</a></li>
+					<li><a href="#0">Parts</a></li>
+					<li><a href="#0">News</a></li>
+					<li><a href="#0">Contact</a></li>
+				</ul>
+			</nav>
 
-			<div class="form-group form-select-group">
-				<label for="screen-location">Screen Location</label>
-				<select name="screen-location" id="screen-location">
-					<option value="select">Select</option>
-				</select>
-			</div>
+			<!-------------- slideshow ----------------> 
+			<section class="slides">
+				<h1>We design and fabricate indestructibel wastewater screens. Enough said.</h1>
+				<a href="#0">Vew products</a>
+				<a href="#0">View Services</a>
 
-			<div class="form-group form-select-group">
-				<label for="flow-type">Flow Type</label>
-				<select name="flow-type" id="flow-type">
-					<option value="select">Select</option>
-				</select>
-			</div>
+				<div class="slideshow-container"> 	
+					<div class="mySlides fade">
+						<img src="/images/header-slider-img-01.jpg" style="width:100%">
+					</div>
 
-			<div class="form-group form-select-group">
-				<label for="channel-width">Channel Width</label>
-				<select name="channel-width" id="channel-width">
-					<option value="select">Select</option>
-				</select>
-			</div>
-			<div class="form-group form-select-group">
-				<label for="channel-width">Channel Depth</label>
-				<select name="channel-width" id="channel-width">
-					<option value="select">Select</option>
-				</select>
-			</div>
-			<button type="submit" value="submit">Find My Product</button>
+					<div class="mySlides fade">
+						<img src="/images/header-slider-img-02.jpg" style="width:100%">
+					</div>
+				
+					<div class="mySlides fade">
+						<img src="/images/header-slider-img-03.jpg" style="width:100%">
+					</div>
 
-		</form>
-		
-	</section>
-		
-	<section class="third-section">
-		<h2>Delivering clean, sage water since 1975. Refreshing indeed.</h2>
-		<p>Vulcan wastewater screening equipment has played a vital role in protecting the water supply more than 900 cities and communities throughout the world.</p>
-		<a href="#0">About Us</a>
-	</section>
+					<!-------------- dots/circles ----------------> 
+					<div style="text-align:center">
+						<span class="dot" onclick="currentSlide(1)"></span>
+						<span class="dot" onclick="currentSlide(2)"></span>
+						<span class="dot" onclick="currentSlide(3)"></span>
+					</div>
+				</div>
+			</section>
 
-	<section class="video-section">
-		<video width="320" height="240" controls>
-			<source src="https://vimeo.com/183929811" >
-		  Your browser does not support the video tag.
-		</video>
-	</section>
+			
+		</header>
+		<main>
+			<!-------------- first section main ----------------> 
+			<section class="white-background">
+				<h2>Customized per order</h2>
+				<p>
+					Just as no two treatment plants are the same, no two of our screening, grit handling or sludge thickening products are either. We'll help determine exactly what you need.
+				</p>
 
-</main>
+				<div>
+					<h3>Screening</h3>
+					<a href="#0">View Selection</a>
+				</div>
+				<div>
+					<h3>Screenings Handling</h3>
+					<a href="#0">View Selection</a>
+				</div>
+				<div>
+					<h3>Grit Handling</h3>
+					<a href="#0">View Selection</a>
+				</div>
+				<div>
+					<h3>Sludge thickening</h3>
+					<a href="#0">View Selection</a>
+				</div>
+			</section>
 
-<footer>
-	<section class = "footer-section1">
-		<h4>Stay in the know. Sign up for our newsletter</h4>
-		<form action="/">
-			<div class="form-group email-group">
-				<label class="visually-hidden" for="email-footer"></label>
-				<input type="email" name="email-footer" id="email-footer" placeholder="Enter your email">
-			</div>
-			<button type="submit">Submit</button>
-		</form>
-	</section>
+			<!-------------- form ----------------> 
+			<section class="product-selection">
+				<h2>Product Advisor</h2>
+				<h3>Find your project's perfect fit.</h3>
+				<span id = "br-line"></span>
 
-	<section class="footer-section2">
-		<div>
-			<h5>Ready to spec vulcan for your project?</h5>
-			<button>Contact us</button>
-		</div>
+				<form action="/">
+				
+					<div class="form-group form-select-group">
+						<label for="product-type">Product Type</label>
+						<select name="product-type" id="product-type">
+							<option value="select">Select</option>
+						</select>
+					</div>
 
-		<div>
-			<h5>Installed in a city near you</h5>
-			<button>Find a vulcan install</button>
-		</div>
-	</section>
+					<div class="form-group form-select-group">
+						<label for="screen-location">Screen Location</label>
+						<select name="screen-location" id="screen-location">
+							<option value="select">Select</option>
+						</select>
+					</div>
 
-	<section class= "footer-section3">
-		<div>
-			<!-- logo goeas here -->
-			<img src="" alt="">
-		</div>
-		<ul>
-			<!-- icons go here -->
-			<li></li>
-			<li>+1 712 642 2755</li>
-			<li>Contact us</li>
-			<li>Copyright 2017. All Rights Reserved</li>
-		</ul>
-	</section>
-	
-</footer>
+					<div class="form-group form-select-group">
+						<label for="flow-type">Flow Type</label>
+						<select name="flow-type" id="flow-type">
+							<option value="select">Select</option>
+						</select>
+					</div>
 
+					<div class="form-group form-select-group">
+						<label for="channel-width">Channel Width</label>
+						<select name="channel-width" id="channel-width">
+							<option value="select">Select</option>
+						</select>
+					</div>
+					<div class="form-group form-select-group">
+						<label for="channel-width">Channel Depth</label>
+						<select name="channel-width" id="channel-width">
+							<option value="select">Select</option>
+						</select>
+					</div>
+					<button type="submit" value="submit">Find My Product</button>
+
+				</form>
+			</section>
+				
+			<!-------------- about section----------------> 
+
+			<section class="third-section">
+				<h2>Delivering clean, sage water since 1975. Refreshing indeed.</h2>
+				<p>Vulcan wastewater screening equipment has played a vital role in protecting the water supply more than 900 cities and communities throughout the world.</p>
+				<a href="#0">About Us</a>
+			</section>
+
+			
+			<!-------------- video section ----------------> 
+			<section class="video-section">
+				<video width="320" height="240" controls>
+					<source src="https://vimeo.com/183929811" >
+				Your browser does not support the video tag.
+				</video>
+			</section>
+
+		</main>
+			
+			<!-------------- footer starts ----------------> 
+		<footer>
+			<section class = "footer-section1">
+				<h4>Stay in the know. Sign up for our newsletter</h4>
+				<form action="/">
+					<div class="form-group email-group">
+						<label class="visually-hidden" for="email-footer"></label>
+						<input type="email" name="email-footer" id="email-footer" placeholder="Enter your email">
+					</div>
+					<button type="submit">Submit</button>
+				</form>
+			</section>
+
+			<section class="footer-section2">
+				<div>
+					<h5>Ready to spec vulcan for your project?</h5>
+					<button>Contact us</button>
+				</div>
+
+				<div>
+					<h5>Installed in a city near you</h5>
+					<button>Find a vulcan install</button>
+				</div>
+			</section>
+
+			<section class= "footer-section3">
+				<div>
+					<!-- logo goeas here -->
+					<img src="" alt="">
+				</div>
+				<ul>
+					<!-- icons go here -->
+					<li></li>
+					<li>+1 712 642 2755</li>
+					<li>Contact us</li>
+					<li>Copyright 2017. All Rights Reserved</li>
+				</ul>
+			</section>
+		</footer>
+</div>
 <!-- *** IMPORTANT *** If you do not require the jQuery Library then feel free to delete the next line -->
 <script src="scripts/libs/jquery/jquery-3.4.1.min.js"></script>
 <!-- *** IMPORTANT *** DO NOT DELETE OR EDIT THE NEXT LINE OF CODE - IT IS IMPORTANT FOR THE GULP BUILD PROCESS. SEE YOUR INSTRUCTOR FIRST IF YOU WANT TO EDIT OR DELETE THIS LINE -->
