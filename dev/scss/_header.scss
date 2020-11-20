@@ -25,9 +25,16 @@
 .top-header{
     background-color: $navBoxColor;
     width: 100%;
-}
+    height: 50px;
+    opacity: .8;
 
-.logo{
+    .th-left,  .th-right{
+        display: none;
+    }
+    
+    .logo{
     width: auto;
-    max-height: 50px;
+    max-height: 30px;
+    margin: 10px;
+    }
 }
