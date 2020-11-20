@@ -1,12 +1,16 @@
 .slideshow-container {
     max-width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
+    position: absolute;
+    top:0;
+    left:0;
     margin: auto;    
  
     img {
+      position: absolute;
+      top: 0;
+      left:0;
       height: 100vh;
+      z-index: -20;
     }
     .mySlides {
         display: none;
@@ -17,6 +21,8 @@
     }
 
     .dot {
+        position: relative;
+        top: 10vh;
         cursor: pointer;
         height: 15px;
         width: 15px;
@@ -25,7 +31,6 @@
         border-radius: 50%;
         display: inline-block;
         transition: background-color 0.6s ease;
-        top: 90vh;
     }
 
     .active, .dot:hover {
@@ -49,4 +54,3 @@
         to {opacity: 1}
       }
 }
-
