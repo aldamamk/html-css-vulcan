@@ -49,7 +49,6 @@
 
 			<nav class="navbar-menu">
 				<ul class="menu-listing">
-					<!-- <li class="menu-li-hide"><a href="#0"></a></li> -->
 					<li><a href="#0">About</a></li>
 					<li><a href="#0">Products</a></li>
 					<li><a href="#0">Services</a></li>
@@ -63,19 +62,28 @@
 			<section class="slides">				
 
 				<div class="slideshow-container">
-					
+
+					<div class="cycle-slideshow"
+						 data-cycle-fx="scrollHorz"
+						 data-cycle-timeout=7000
+    					 data-cycle-pause-on-hover="true"
+						 data-cycle-speed="700">
+						 
+						<!-- empty element for pager links -->
+						<div class="cycle-pager"></div>
+						
+
+						<img src="/images/header-slider-img-01.jpg" style="width:100%">
+						<img src="/images/header-slider-img-02.jpg" style="width:100%">
+						<img src="/images/header-slider-img-03.jpg" style="width:100%">
+					</div>
+
 					<div class = "banner-text">
 						<h1>We design and fabricate indestructible wastewater screens. Enough said.</h1>
 						<a href="#0">Vew products</a>
 						<a href="#0">View Services</a>
 					</div>
-					<!--empty element for pager links-->
 
-					<div class="cycle-pager"></div>
-						<img src="/images/header-slider-img-01.jpg" style="width:100%">
-						<img src="/images/header-slider-img-02.jpg" style="width:100%">
-						<img src="/images/header-slider-img-03.jpg" style="width:100%">
-					</div>
 				</div>
 			</section>
 		</header>
@@ -83,6 +91,7 @@
 		<main>
 			<!-------------- first section main ----------------> 
 			<section class="white-background">
+				<img class="white-wave" src="/images/wave-white.png" alt="border">
 				<h2>Customized per order</h2>
 				<p>
 					Just as no two treatment plants are the same, no two of our screening, grit handling or sludge thickening products are either. We'll help determine exactly what you need.
@@ -114,6 +123,7 @@
 		<span class="ps"></span>
 
 		<section class="product-selection">
+		<span class="blue-wave-border"><img src="/images/wave-blue-dark.png" alt="blue border"></span>
         <h2>Product Advisor</h2>
         <h3>Find your project's perfect fit.</h3>
 
@@ -159,7 +169,7 @@
 
    <!-------------- about section----------------> 
 
-   <section class="third-section">
+   <section class="about-section">
 		<h2>Delivering clean, sage water since 1975. Refreshing indeed.</h2>
 		<p>Vulcan wastewater screening equipment has played a vital role in protecting the water supply more than 900 cities and communities throughout the world.</p>
 		<a href="#0">About Us</a>

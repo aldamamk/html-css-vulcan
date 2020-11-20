@@ -1,28 +1,22 @@
-.ps{//wave image
-    background-image: url("../images/wave-blue-dark.png");
-    background-size: cover;
-    position: absolute;
-    height: 5vh;
-    left: 0;
-    top: 275vh;
-    width: 100%;
-    background-repeat: no-repeat;
-}
+
 
 .product-selection{
-    background-color: $formBackgroundColor;
-    position: absolute;
-    top: 280vh;    
-    height: 100vh;
+    background-color: $formBackgroundColor;   
     width: 100%;
+    padding-top: 20px;
+
+    .blue-wave-border{
+        width: 100%;
+        height: 30px;
+        position: relative;
+        top: -40px;
+    }
 
     h2{
-        margin-top: 30px;
         @include text-style;
         font-size: 28px;
         letter-spacing: normal;
         padding-bottom: 10px;
-        //border-bottom: 1px solid white;
     }
 
     h3{
@@ -70,8 +64,6 @@ form{
         border: none;
         font-size: 16px;
         width: 85vw;
-        margin: 10px 20px;
-
-
+        margin: 20px 20px 30px 20px;
     }
 }
