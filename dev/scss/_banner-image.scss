@@ -1,0 +1,27 @@
+//background images go here
+.white-background{
+    background-image: url("../images/wave-white.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 96vh;
+    z-index: -10;
+}
+
+.ps{//blue wave image
+    background-image: url("../images/wave-blue-dark.png");
+    background-size: cover;
+    position: absolute;
+    height: 5vh;
+    left: 0;
+    top: 275vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.third-section{//about banner
+    @include banner-image-mobile;
+    background-image: url("../images/bg-section-about-us.jpg");
+    object-fit: cover;
+    top: 350vh;
+}

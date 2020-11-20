@@ -43,7 +43,7 @@ header{
 }
 
 .banner-text{
-    margin-top: 30vh;
+    margin: 30vh 0 20vh 0;
 
     h1{
         @include text-style;
