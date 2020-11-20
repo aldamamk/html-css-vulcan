@@ -9,3 +9,11 @@
     font-weight: 700;
     color: white;
 }
+
+@mixin banner-image-mobile{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    height:100vh;
+}

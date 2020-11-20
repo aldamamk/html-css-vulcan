@@ -1,4 +1,4 @@
-.ps{
+.ps{//wave image
     background-image: url("../images/wave-blue-dark.png");
     background-size: cover;
     position: absolute;
@@ -34,6 +34,9 @@
         padding-bottom: 20px;
         border-bottom: white solid 1px;
         margin: 0 20px 30px ;
+    }
+    .product-placement{
+        height: 20vh;
     }
     
 }
