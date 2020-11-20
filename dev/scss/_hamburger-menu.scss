@@ -96,9 +96,10 @@ body {
 
 	/* End */
 
-	/* Banner Section */
+}
 
-	.banner-info h1 { font-size: 2rem; }
-
-	/* End */
+@media(min-width: 450){
+    .menu{
+        display:none;
+    }
 }
