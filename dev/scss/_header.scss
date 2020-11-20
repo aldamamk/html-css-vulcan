@@ -21,6 +21,9 @@
 }
 
 */
+header{
+    height: 100vh;
+}
 
 .top-header{
     background-color: $navBoxColor;
@@ -48,5 +51,17 @@
         color: $whiteColor;
         font-weight: 700;
      
+    }
+
+    a{
+        text-align: center;
+        font-size: larger;
+        display: block;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        margin: 5% 30%;
+        border: 1px solid;
+        padding: 15px;
     }
 }

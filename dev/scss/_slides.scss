@@ -7,11 +7,13 @@
  
     img {
       position: absolute;
+      object-fit: cover;
       top: 0;
       left:0;
       height: 100vh;
       z-index: -20;
     }
+    
     .mySlides {
         display: none;
     }
@@ -22,12 +24,12 @@
 
     .dot {
         position: relative;
-        top: 10vh;
+        top: 0vh;
         cursor: pointer;
         height: 15px;
         width: 15px;
         margin: 0 2px;
-        background-color: $WhiteColor;
+        background-color: white;
         border-radius: 50%;
         display: inline-block;
         transition: background-color 0.6s ease;

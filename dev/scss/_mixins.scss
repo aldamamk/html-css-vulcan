@@ -1,0 +1,8 @@
+@mixin display-inline {
+    display: inline-block;
+}
+
+@mixin text-style{
+    text-align: center;
+    text-transform: uppercase;
+}
