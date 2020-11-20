@@ -27,10 +27,20 @@
         @include text-style;
         font-size: 18px;
         font-weight: 600;
+        width: 40vw;
+        margin: 20% auto;
     }
 
     .product-placement{
         display: inline-flex;
+        padding: 5% 20%;
+        border-bottom: gray 1px solid;
+
+    }
+
+    img{
+        width: 40vw;
+        height: auto;
     }
 
 } 

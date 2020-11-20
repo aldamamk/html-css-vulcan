@@ -1,4 +1,9 @@
 .product-selection{
-    position: relative;
-    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 300vh;
+    background-repeat: no-repeat;
     background-image: url("../images/wave-blue-dark.png");
+    width: 100%;
+    height: 100vh;
+}
