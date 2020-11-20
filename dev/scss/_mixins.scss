@@ -2,7 +2,10 @@
     display: inline-block;
 }
 
+//header
 @mixin text-style{
     text-align: center;
     text-transform: uppercase;
+    font-weight: 700;
+    color: white;
 }

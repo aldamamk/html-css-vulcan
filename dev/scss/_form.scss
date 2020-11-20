@@ -1,11 +1,74 @@
-.product-selection{
+.ps{
     background-image: url("../images/wave-blue-dark.png");
-    background-color: linear-gradient(white 10%, $formBackgroundColor);
+    background-size: cover;
     position: absolute;
+    height: 5vh;
     left: 0;
-    top: 260vh;
-    background-repeat: no-repeat;
-    
+    top: 275vh;
     width: 100%;
+    background-repeat: no-repeat;
+}
+
+.product-selection{
+    background-color: $formBackgroundColor;
+    position: absolute;
+    top: 280vh;    
     height: 100vh;
+    width: 100%;
+
+    h2{
+        margin-top: 30px;
+        @include text-style;
+        font-size: 28px;
+        letter-spacing: normal;
+        padding-bottom: 10px;
+        //border-bottom: 1px solid white;
+    }
+
+    h3{
+        text-transform: capitalize;
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        padding-bottom: 20px;
+        border-bottom: white solid 1px;
+        margin: 0 20px 30px ;
+    }
+    
+}
+
+//============= form =============
+
+form{
+    .form-group{
+     display: inline-block;
+     margin:0 20px ;
+    }
+
+    label{
+        @include text-style;
+        text-transform: capitalize;
+        font-size: 18px;
+    }
+   select{
+       background-color: lightgray;
+       height: 30px;
+       font-size: 14px;
+       padding: 5px;
+       width: 85vw;
+       margin: 5px 0 20px 0;
+    }
+
+    button{
+        @include text-style;
+        padding: 10px;
+        background-color: $blueColor;
+        border: none;
+        font-size: 16px;
+        width: 85vw;
+        margin: 10px 20px;
+
+
+    }
 }

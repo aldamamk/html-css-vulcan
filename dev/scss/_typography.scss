@@ -1,9 +1,12 @@
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, label{
     font-family: $headingFont;
     text-transform: uppercase;
+    letter-spacing: normal;
 }
 
 
-input, label, p, li, a, button, label, option{
+input, p, li, a, button, label, option{
    font-family: $bodyFont;
+   letter-spacing: normal;
+   line-height: 1.25;
 }
