@@ -1,9 +1,9 @@
  .white-background{
     background-image: url("../images/wave-white.png"); 
     position: absolute;
-    max-width: 100vw;
     top: 85vh;
     z-index: -10;
+ 
 
     a{
         display: none;
@@ -36,11 +36,17 @@
         padding: 5% 20%;
         border-bottom: gray 1px solid;
 
+
     }
 
     img{
         width: 40vw;
         height: auto;
+    }
+
+    .last-pp{
+        border: none;
+        margin-bottom: 5%;
     }
 
 } 
