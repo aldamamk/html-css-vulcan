@@ -1,6 +1,6 @@
 .product-selection{
     background-image: url("../images/wave-blue-dark.png");
-    background-color: red;
+    background-color: linear-gradient(white 10%, $formBackgroundColor);
     position: absolute;
     left: 0;
     top: 260vh;
