@@ -1,0 +1,23 @@
+/*.top-header{
+
+    @media (min-width: 450PX){
+
+        display: grid;
+        grid-template-areas: "th-left th-middle th-right ";
+
+        .th-left{
+            grid-area: "th-left";
+        }
+
+        .th-middle{
+            grid-area: "th-middle";
+        }
+
+        .th-right{
+            grid-area: "th-right";
+
+        }
+    }
+}
+
+*/
