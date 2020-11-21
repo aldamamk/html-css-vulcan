@@ -2,8 +2,8 @@
     
     h2{
         @include text-style;
-        font-size: 28px;
-        padding: 20vh 5vh 5vh 5vh;
+        font-size: 30px;
+        padding: 25vh 5vh 5vh 5vh;
         
     }
 
@@ -17,14 +17,11 @@
         margin-bottom: 15vh;
     }
 
-    .about-link{
-        margin: 5% auto;
-    }
     a{
         @include text-style;
         font-size: 16px;
         border: white 1px solid;
         align-items: center;
-        padding: 10px 30px
+        padding: 10px 30px;
     }
 }

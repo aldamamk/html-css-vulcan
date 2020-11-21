@@ -29,6 +29,7 @@
         border-bottom: white solid 1px;
         margin: 0 20px 30px ;
     }
+
     .product-placement{
         height: 20vh;
     }
@@ -57,7 +58,7 @@ form{
        margin: 5px 0 20px 0;
     }
 
-    button{
+    #form-btn{
         @include text-style;
         padding: 10px;
         background-color: $blueColor;

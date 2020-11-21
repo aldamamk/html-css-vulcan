@@ -1,0 +1,28 @@
+.footer-section1{
+    background-color: $footerBoxColor;
+    padding-bottom: 30px;
+    
+    h4{
+        color: $footerSectionOneTextColor;
+        font-size: 22px;
+        font-weight: 500;
+        text-transform: none;
+        padding: 25px 20px;
+    }
+
+    input{
+        height: 40px;
+        border: none;
+        padding-left: 10px;
+        width: 60vw;
+    }
+
+    button{
+        @include text-style;
+        padding: 10px 15px;
+        background-color: $blueColor;
+        border: none;
+        font-size: 16px;
+    }
+
+}

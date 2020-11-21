@@ -120,67 +120,110 @@
 			</section>
 		
     <!-------------- form ----------------> 
-		<span class="ps"></span>
+			<span class="ps"></span>
 
-		<section class="product-selection">
-		<span class="blue-wave-border"><img src="/images/wave-blue-dark.png" alt="blue border"></span>
-        <h2>Product Advisor</h2>
-        <h3>Find your project's perfect fit.</h3>
+			<section class="product-selection">
+				<span class="blue-wave-border"><img src="/images/wave-blue-dark.png" alt="blue border"></span>
+				<h2>Product Advisor</h2>
+				<h3>Find your project's perfect fit.</h3>
 
-        <form action="/">
-            <div class="form-group form-select-group">
-                <label for="product-type">Product Type</label>
-                <select name="product-type" id="product-type">
-                    <option value="select">Select</option>
-                </select>
-            </div>
+				<form action="/">
+					<div class="form-group form-select-group">
+						<label for="product-type">Product Type</label>
+						<select name="product-type" id="product-type">
+							<option value="select">Select</option>
+						</select>
+					</div>
 
-            <div class="form-group form-select-group">
-                <label for="screen-location">Screen Location</label>
-                <select name="screen-location" id="screen-location">
-                    <option value="select">Select</option>
-                </select>
-            </div>
+					<div class="form-group form-select-group">
+						<label for="screen-location">Screen Location</label>
+						<select name="screen-location" id="screen-location">
+							<option value="select">Select</option>
+						</select>
+					</div>
 
-            <div class="form-group form-select-group">
-                <label for="flow-type">Flow Type</label>
-                <select name="flow-type" id="flow-type">
-                    <option value="select">Select</option>
-                </select>
-            </div>
+					<div class="form-group form-select-group">
+						<label for="flow-type">Flow Type</label>
+						<select name="flow-type" id="flow-type">
+							<option value="select">Select</option>
+						</select>
+					</div>
 
-            <div class="form-group form-select-group">
-                <label for="channel-width">Channel Width</label>
-                <select name="channel-width" id="channel-width">
-                    <option value="select">Select</option>
-                </select>
-            </div>
-            <div class="form-group form-select-group">
-                <label for="channel-width">Channel Depth</label>
-                <select name="channel-width" id="channel-width">
-                    <option value="select">Select</option>
-                </select>
-            </div>
-            <button type="submit" value="submit">Find My Product</button>
+					<div class="form-group form-select-group">
+						<label for="channel-width">Channel Width</label>
+						<select name="channel-width" id="channel-width">
+							<option value="select">Select</option>
+						</select>
+					</div>
+					<div class="form-group form-select-group">
+						<label for="channel-width">Channel Depth</label>
+						<select name="channel-width" id="channel-width">
+							<option value="select">Select</option>
+						</select>
+					</div>
+					<button id="form-btn" type="submit" value="submit">Find My Product</button>
 
-		</form>
-		
-    </section>
+				</form>
+				
+			</section>
 
    <!-------------- about section----------------> 
 
-   <section class="about-section">
-		<h2>Delivering clean, sage water since 1975. Refreshing indeed.</h2>
-		<p>Vulcan wastewater screening equipment has played a vital role in protecting the water supply more than 900 cities and communities throughout the world.</p>
-		<span class="about-link"><a  href="#0">About Us</a></span>
-	</section>
+			<section class="about-section">
+				<h2>Delivering clean, sage water since 1975. Refreshing indeed.</h2>
+				<p>Vulcan wastewater screening equipment has played a vital role in protecting the water supply more than 900 cities and communities throughout the world.</p>
+				<span class="about-link"><a  href="#0">About Us</a></span>
+			</section>
 
+		<!-------------- video section ----------------> 
+			<section class="video-section">
+				<span id="video-border">
+
+					<video width="350" height="200" controls>
+					<source src="https://www.youtube.com/watch?v=5meKeQn2ZJk" >
+					Your browser does not support the video tag.
+					</video>
+				</span>
+			
+			</section>
+
+		</main>
+    <!-------------- footer starts ----------------> 
+		<footer>
+			<section class = "footer-section1">
+				<h4>Stay in the know. Sign up for our newsletter.</h4>
+				<form action="/">
+					<div class="form-group email-group">
+						<label class="visually-hidden" for="email-footer"></label>
+						<input type="email" name="email-footer" id="email-footer" placeholder="Enter your email">
+						<button type="submit">Submit</button>
+					</div>
+					
+				</form>
+			</section>
+			 <!-------------- footer s2 ----------------> 
+			<section class="footer-section2">
+				
+				<div class="map-background">
+					<h5>Installed in a city near you</h5>
+					<a href="#0">Find a vulcan install</a>
+				</div>
+				
+				<div class="footer-contact-us">
+					<h5>Ready to spec vulcan for your project?</h5>
+					<a href="#0">Contact us</a>
+				</div>
+			</section>
 		
-</div> <!--wrapper div-->
+	 		<!-------------- footer s3 ----------------> 
+		</footer> 
+	</div> <!--wrapper div-->
+
 <!-- *** IMPORTANT *** If you do not require the jQuery Library then feel free to delete the next line -->
 <script src="scripts/libs/jquery/jquery-3.4.1.min.js"></script>
 <!-- *** IMPORTANT *** DO NOT DELETE OR EDIT THE NEXT LINE OF CODE - IT IS IMPORTANT FOR THE GULP BUILD PROCESS. SEE YOUR INSTRUCTOR FIRST IF YOU WANT TO EDIT OR DELETE THIS LINE -->
 <script src="scripts/script.min.js?cb=1"></script>
 <!-- *** IMPORTANT *** DO NOT ADD ADDITIONAL SCRIPT LINKS HERE...If you want to add additional scripts simply save the script files to the "dev/scripts" directory (for your custom scripts) and the 'dev/scripts/libs' directory for any jQuery plugins or other JavaScript libraries and Gulp will concatenate and minify them into the "script.min.js" file above. See the project instructions for details -->	
 </body>
+
 </html>
