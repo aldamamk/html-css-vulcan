@@ -1,13 +1,23 @@
+.light-blue-wave{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top:-40px;
+    object-fit: cover;
+    
+}
+
 .footer-section3{
     background-color: #0099cc;
-    height: 30vh;
-
-    .light-blue-wave{
-        height: 50px;
-        width: 100%;
-        object-fit: cover;
-        position: relative;
-        top: -60px;
-        left: 0;
+    
+    li p{
+        @include text-style;
     }
+
+    .footer-group{
+        display: block;
+        justify-content: center;
+    }
+
 }
