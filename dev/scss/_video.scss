@@ -1,11 +1,11 @@
 .video-section{
     background-color: $blueColor;
-    
+    text-align: center;
 
     video{
         margin: 10% auto;
         padding:0 10px;
-        border:15px blue solid ;
+        border:15px $videoBorder solid ;
         background-color: green;
         width: 340px;
         height: 240px;

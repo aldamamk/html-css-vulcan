@@ -7,17 +7,32 @@
     object-fit: cover;
     
 }
+footer{
+    text-align: center;
 
-.footer-section3{
-    background-color: #0099cc;
-    
-    li p{
+    li, p{
         @include text-style;
+        font-size: 13px;
+        font-weight: normal;
+        font-family: $bodyFont;
     }
 
-    .footer-group{
-        display: block;
-        justify-content: center;
-    }
+    .footer-section3{
+        background-color: #0099cc;
+        
+        
 
+        .footer-nested{
+            display: block;
+        }
+
+        .footer-group{
+           padding-bottom: 20px;
+            
+        }
+        
+        .footer-contact{
+           display: inline-flex;
+        }
+    }
 }
