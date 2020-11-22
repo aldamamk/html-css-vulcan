@@ -3,19 +3,16 @@
     position: absolute;
     left: 0;
     top:0;
-    z-index: 1000;
-    background-color: $navBoxColor;
-    width: 100%;
+    z-index: 8000;
     height: 50px;
-    opacity: .8;
-
+ 
     .th-left,  .th-right{
         display: none;
     }
     
     .logo{
     width: auto;
-    max-height: 30px;
+    height: 30px;
     margin: 10px;
     }
 }
@@ -47,33 +44,38 @@
     }
 }
 
-/*=========== tablet version ========= 
+/*=========== tablet version ========= */
+
+
 
 .top-header{
-    background-color: none;
-
-    .th-left,  .th-right{
-        display: flex-start;
-    }
-
+    
+    
     @media (min-width: 450px){
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
         
-        display: grid;
-        grid-template-areas: "th-left th-middle th-right ";
-
-        .th-left{
-            grid-area: "th-left";
-        }
-
-        .th-middle{
-            grid-area: "th-middle";
+        .th-left,  .th-right{
+        display: inline;
+        @include text-style;
+        font-weight: 400;
         }
 
         .th-right{
-            grid-area: "th-right";
+            a{
+                display: inline;
+                color: white;
+            }
+ 
+        .logo{
+            margin: 0;
+            height: 150px;
+            width: auto;
+        }
 
         }
-    }
-}
+    } // end media query
+}//end t-h
 
-*/
+

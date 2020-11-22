@@ -4,13 +4,13 @@
 .menu {
 	position: relative;
 	top: 0;
-	left: 85vw;
+	left: 0;
 	background-color: $navBoxColor; opacity: .8;
 	height: 50px;
-	width: 50px;
+	width: 100%;
 	cursor: pointer;
 	transition: 0.3s;
-	z-index: 9999;
+	z-index: 7000;
 }
 .menu span {
 	position: absolute;
@@ -18,7 +18,7 @@
 	width: 25px;
 	background-color: #fff;
    	top: 50%;
-    left: 50%;
+    left: 90%;
     transform: translate(-50%,-50%);
     transition: 0.3s;
 }
@@ -86,11 +86,20 @@
 
 	/* Navigationbar */
 
-	.navbar-menu { height: auto;z-index: 3000; }
+	.navbar-menu { height: auto;z-index: 4000; }
 	.menu-listing li { display: block; }
 	.navbar-menu .menu-listing { text-align: center; }
 
 	/* End */
 
-}
 
+
+}
+/*=========== wider version ========= */
+
+@media only screen and (min-width:450px) {
+	.menu{
+		display: none;
+	}
+
+}
