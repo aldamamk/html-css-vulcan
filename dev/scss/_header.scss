@@ -1,26 +1,3 @@
-/*.top-header{
-
-    @media (min-width: 450PX){
-
-        display: grid;
-        grid-template-areas: "th-left th-middle th-right ";
-
-        .th-left{
-            grid-area: "th-left";
-        }
-
-        .th-middle{
-            grid-area: "th-middle";
-        }
-
-        .th-right{
-            grid-area: "th-right";
-
-        }
-    }
-}*/
-
-
 
 .top-header{
     position: absolute;
@@ -69,3 +46,34 @@
         padding: 15px;
     }
 }
+
+/*=========== tablet version ========= 
+
+.top-header{
+    background-color: none;
+
+    .th-left,  .th-right{
+        display: flex-start;
+    }
+
+    @media (min-width: 450px){
+        
+        display: grid;
+        grid-template-areas: "th-left th-middle th-right ";
+
+        .th-left{
+            grid-area: "th-left";
+        }
+
+        .th-middle{
+            grid-area: "th-middle";
+        }
+
+        .th-right{
+            grid-area: "th-right";
+
+        }
+    }
+}
+
+*/

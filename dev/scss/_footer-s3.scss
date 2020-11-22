@@ -31,9 +31,15 @@ footer{
             
         }
         
-        .footer-contact{
-           display: inline-flex;
-        
-        }
-    }
+      }  
 }
+
+.footer-contact{
+        
+    ul{
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+}
+    

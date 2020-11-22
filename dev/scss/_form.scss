@@ -67,4 +67,26 @@ form{
         width: 85vw;
         margin: 20px 20px 30px 20px;
     }
+
+    .form-select-group:after {
+        content: "";
+
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid gray;  
+        
+        position:relative;
+        right:25px;
+        top:15px;
+
+        pointer-events: none;
+        }
+
+    select {
+        -o-appearance: none;
+        -ms-appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        }
 }

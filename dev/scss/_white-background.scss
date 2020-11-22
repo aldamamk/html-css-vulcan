@@ -35,9 +35,10 @@
     }
 
     .product-placement{
-        display: inline-flex;
-        padding: 5% 10%;
+        display: flex;
+        justify-content: space-between;
         border-bottom: gray 1px solid;
+        padding: 20px;
         height: 33vh;
     }
 
