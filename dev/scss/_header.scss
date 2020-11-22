@@ -50,6 +50,8 @@
 /*=========== tablet version ========= 
 
 .top-header{
+
+    @media screen and (max-width: 700px) and (min-width: 450px)
     background-color: none;
 
     .th-left,  .th-right{
@@ -75,5 +77,6 @@
         }
     }
 }
+
 
 */
