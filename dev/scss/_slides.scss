@@ -30,3 +30,31 @@
     object-fit: cover;
   }
 }
+
+
+.banner-text{
+  position: absolute;
+  left: 0;
+  top: 150px;
+  z-index: 1000;
+  text-align: center;
+
+  h1{
+      @include text-style;
+      font-size: 26px;
+      color: $whiteColor;
+      font-weight: 700;
+      padding: 0 10px;
+   
+  }
+
+  a{
+      display: block;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: white;
+      margin: 5% 30%;
+      border: 1px solid;
+      padding: 15px;
+  }
+}

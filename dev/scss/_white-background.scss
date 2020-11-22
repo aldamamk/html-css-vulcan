@@ -16,7 +16,8 @@
         font-weight: 600;
         text-align: center;
         padding: 20px 30px 0 30px;
-    }
+        color: $videoBorder;
+        }
 
     p{
         padding: 5%;
@@ -54,3 +55,29 @@
 
 } 
 
+
+/*=========== wider version ========= */
+.white-background{
+@media only screen and (min-width: 500px) {
+    .wb-to-flex{
+        display: flex;
+    }
+    .product-placement{
+        border: none;
+
+        a{
+            display: block;
+            text-decoration: underline;
+            color: black;
+        }
+
+        h3{
+            margin: 0;
+            color: $blueColor;
+            font-size: larger;
+        }
+    }//end .product-placement
+
+}//end media query
+
+} // end .white-background
