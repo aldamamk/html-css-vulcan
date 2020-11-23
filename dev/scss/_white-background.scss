@@ -110,8 +110,21 @@
 
 // large screen
 .white-background{
+    
 @media (min-width: 900px){
+    margin-top: 20px;
 
+    h2{
+        padding: 0 20%;
+    }
+
+    p{
+        margin: 0 15%;
+    }
+    .white-wave{
+        top: -20px;
+
+    }
     .product-placement{
 
         h3{

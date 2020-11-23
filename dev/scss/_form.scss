@@ -4,6 +4,7 @@
     background-color: $formBackgroundColor;   
     width: 100%;
     padding-top: 20px;
+    text-align: center;
 
     .blue-wave-border{
         width: 100%;
@@ -51,6 +52,8 @@
 //============= form =============
 
 form{
+    text-align: left;
+
     .form-group{
      display: inline-block;
      margin:0 20px ;
@@ -113,9 +116,7 @@ form{
    
     form{
           
-        select{
-            width: 40vw;
-        }
+       
 
         .form-select-group:after {
             content: "";
@@ -125,24 +126,46 @@ form{
 
     }
 
+    .form-group{
+        width: 40vw;
+
+        select{
+            width: 42vw;
+        }
+    }
+
+
+
 
 }//p-s end
 }//media query
 
 .product-selection{
+
 @media (min-width: 900px){
     .blue-wave-border{
         top: -60px;
     }
+
    form{
+
     max-width: 100%;
     display: flex;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
    }
 
-   select{
-       width: 20vw;
+   .form-group{
+       width: 15vw;
+
+    select{
+    width: 15vw;
+    }
+
    }
+
+  
 
 } //end media query
 
