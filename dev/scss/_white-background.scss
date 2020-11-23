@@ -104,6 +104,7 @@
 } // end .white-background
 
 // large screen
+.white-background{
 @media (min-width: 900px){
 
     .product-placement{
@@ -113,4 +114,6 @@
         }
     }
 
-}
+}//end m-q
+
+}//end .w-b

@@ -43,6 +43,7 @@
         font-size: 16px;
         width: 85vw;
         margin: 20px 20px 30px 20px;
+        font-weight: 500;
     }
     
 }
@@ -64,9 +65,10 @@ form{
        background-color: lightgray;
        height: 30px;
        font-size: 14px;
-       padding: 5px;
+       padding: 5px 10px;
        width: 85vw;
        margin: 5px 0 20px 0;
+       color: grey;
     }
 
 
@@ -126,15 +128,17 @@ form{
 
 }//media query
 
-
+.product-selection{
 @media (min-width: 900px){
    form{
     display: flex;
-    width: 100%;
+    flex-wrap: no-wrap;
    }
 
    select{
-       width: 10vw;
+       width: 20vw;
    }
 
 } //end media query
+
+}//end .product-selection
