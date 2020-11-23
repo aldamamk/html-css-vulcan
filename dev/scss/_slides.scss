@@ -39,7 +39,7 @@
     .banner-text{
     position: absolute;
     left: 0;
-    top: 150px;
+    top: 200px;
     z-index: 1000;
     width: 100%;
 
@@ -65,27 +65,40 @@
   }
 }
 
-@media only screen and (min-width: 500px) {
+/*=========== wider version ========= */
 
-  .banner-text{
-    display: block;
-    width: 100%;
-    h1{
-      font-size: 34px;
-    }
-    
-    a{
-      padding: 10px 90px ;
-     margin: 0;
-     flex: 1;
-    }
+.slides{
+  @media (min-width: 500px) {
+
+    .banner-text{
+      display: block;
+      width: 100%;
+      padding: 0 30px;
+
+      h1{
+        font-size: 34px;
+        margin-bottom: 30px;;
+      }
+            
+      a{
+        margin: 0 20px;
+        padding: 10px 10p;
+      }     
 
     #banner-links{
-     display: flex;
-     justify-content: space-around;
+          display: flex;
+          justify-content: center; 
+
     } 
-   
-   
-  }
+    }
+
+  }//end m-q
+}//end-slides 
+
+
+@media (min-width: 500px) {
+.cycle-pager span{
+  font-size: 50px;
+}
 
 }//end m-q

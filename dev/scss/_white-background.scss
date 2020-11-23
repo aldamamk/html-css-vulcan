@@ -57,25 +57,45 @@
 
 
 /*=========== wider version ========= */
+
 .white-background{
+
 @media only screen and (min-width: 500px) {
+    
+    p{
+        padding: 20px 5%;  
+      }
+      
     .wb-to-flex{
         display: flex;
+        justify-content: space-evenly;
+        width: 100%;
     }
     .product-placement{
         border: none;
+        display: block;
+        height: auto;
+        width: 20%;
+        margin-bottom: 50px;
 
         a{
             display: block;
             text-decoration: underline;
             color: black;
+            text-align: center;
         }
 
         h3{
             margin: 0;
+            margin-top: 10px;
+            width: auto;
             color: $blueColor;
-            font-size: larger;
+            font-size: 22px;
+            height: 50px;
         }
+
+    
+
     }//end .product-placement
 
 }//end media query
