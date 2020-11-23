@@ -107,8 +107,9 @@ form{
     }
 
     form{
-        display: inline-flex;
-        max-width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
 
         select{
             width: 40vw;
@@ -117,8 +118,8 @@ form{
         .form-select-group:after {
             content: "";
 
-            border-top: 10px solid g$blueColor;  
-
+            border-top: 10px solid $blueColor;  
+        }
 
     }
 
@@ -137,4 +138,4 @@ form{
        width: 10vw;
    }
 
-}//end media query
+} //end media query

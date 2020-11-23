@@ -60,7 +60,7 @@
 
 .white-background{
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px){
     
     p{
         padding: 20px 5%;  
@@ -69,14 +69,9 @@
     .wb-to-flex{
         display: flex;
         justify-content: space-evenly;
-        width: 100%;
-
-        img{
-            min-width: 250px;
-            height: auto;
-        }
-    
+        width: 100%;    
     }
+
     .product-placement{
         border: none;
         display: block;
@@ -96,7 +91,7 @@
             margin-top: 10px;
             width: auto;
             color: $blueColor;
-            font-size: 22px;
+            font-size: 20px;
             height: 50px;
         }
 
@@ -107,3 +102,15 @@
 }//end media query
 
 } // end .white-background
+
+// large screen
+@media (min-width: 900px){
+
+    .product-placement{
+
+        h3{
+            font-size: 24px;
+        }
+    }
+
+}
