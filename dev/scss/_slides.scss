@@ -20,15 +20,35 @@
 .cycle-pager span.cycle-pager-active { color: $blueColor;}
 .cycle-pager > * { cursor: pointer;}
 
+
+@media(min-width:500px){
+  .cycle-pager span{
+    font-size: 50px;
+  }
+
+  .cycle-pager{
+    position: absolute;
+    top: 80vh;
+  }
+}
+
+
+@media(min-width:900px){
+  .cycle-pager{
+    position: absolute;
+    top: 70vh;
+  }
+}
 /*============ slides specs ==========*/
 
 .slideshow-container{
   height: 80vh;
- 
+
 
   img{
     height: 80vh;
     object-fit: cover;
+    background-repeat: no-repeat;
   }
 }
 
@@ -36,10 +56,10 @@
   text-align: center;
 
 
-    .banner-text{
+  .banner-text{
     position: absolute;
     left: 0;
-    top: 200px;
+    top: 150px;
     z-index: 1000;
     width: 100%;
 
@@ -48,8 +68,6 @@
         font-size: 26px;
         color: $whiteColor;
         font-weight: 700;
-
-    
     }
 
     a{
@@ -63,17 +81,23 @@
         margin: 30px 30%;
     }
   }
-}
+  
+}//.slides
 
-/*=========== wider version ========= */
+/*=========== tablet version ========= */
 
 .slides{
   @media (min-width: 500px) {
 
+    img{
+      height: 95vh;
+    }
+
     .banner-text{
       display: block;
       width: 100%;
-      padding: 0 30px;
+      padding: 0 40px;
+      top: 200px;
 
       h1{
         font-size: 34px;
@@ -85,20 +109,32 @@
         padding: 10px 10p;
       }     
 
-    #banner-links{
+      #banner-links{
           display: flex;
           justify-content: center; 
-
     } 
-    }
+
+    }//end banner text
 
   }//end m-q
 }//end-slides 
 
 
-@media (min-width: 500px) {
-.cycle-pager span{
-  font-size: 50px;
-}
+/*=========== desktop version ========= */
 
-}//end m-q
+
+.slides{
+  @media (min-width: 900px) {
+    .banner-text{
+      padding: 0 15%;
+
+      h1{
+        font-size: 40px;
+      }
+    }
+    img{
+      height: 85vh;
+    }
+
+  }//end media
+}//end slides

@@ -98,7 +98,11 @@ form{
 //============= Media query =============
 
 @media (min-width: 500px) {
-    
+    .blue-wave-border{
+        position: relative;
+        top: -60px;
+    }
+
     .product-selection{   
 
         h3{
