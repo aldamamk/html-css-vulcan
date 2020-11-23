@@ -96,26 +96,23 @@ form{
 }
 
 //============= Media query =============
-
+.product-selection{
 @media (min-width: 500px) {
-    .blue-wave-border{
-        position: relative;
-        top: -60px;
+    padding-top: 0;
+    
+    h3{
+        color: $blueColor;
+        font-size: 20px;
     }
 
-    .product-selection{   
+   .blue-wave-border{
+       position: relative;
+       top: -40px;
+   }
 
-        h3{
-            color: $blueColor;
-            font-size: 20px;
-        }
-
-    }
-
+   
     form{
-        display: flex;
-        flex-flow: row wrap;
-        
+          
         select{
             width: 40vw;
         }
@@ -129,12 +126,16 @@ form{
     }
 
 
-
+}//p-s end
 }//media query
 
 .product-selection{
 @media (min-width: 900px){
+    .blue-wave-border{
+        top: -60px;
+    }
    form{
+    max-width: 100%;
     display: flex;
     flex-wrap: no-wrap;
    }
