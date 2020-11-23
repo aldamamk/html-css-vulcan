@@ -95,7 +95,7 @@ form{
 
 //============= Media query =============
 
-@media only screen and (max-width: 850px) and (min-width: 500px) {
+@media (min-width: 500px) {
     
     .product-selection{   
 
@@ -108,9 +108,8 @@ form{
 
     form{
         display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-
+        flex-flow: row wrap;
+        
         select{
             width: 40vw;
         }
@@ -128,7 +127,7 @@ form{
 }//media query
 
 
-@media (min-width: 850px){
+@media (min-width: 900px){
    form{
     display: flex;
     width: 100%;
