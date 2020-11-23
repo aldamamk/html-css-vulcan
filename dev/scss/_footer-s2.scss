@@ -57,3 +57,33 @@
         border: white solid 2px;
     }
 }
+
+//============= wide version =============
+
+.footer-section2{
+    @media (min-width:500px) {
+
+        .map-background{
+            width: 50%;
+            position: relative;
+            left: 50%;
+            height:330px;
+        }
+
+        .footer-contact-us{
+            width: 50%;
+            position: relative;
+            top: -330px;
+            height: 330px;
+        }
+
+        a{
+            background-color: $blueColor;
+            color: white;
+            border: none;
+            font-size: 16px;
+        }
+    }
+
+}
+

@@ -17,8 +17,8 @@
  
     @media(min-width: 500px){
      video{
-        height: 50vh;
-        width: auto;
+        height: auto;
+        width: 70vw;
         margin: 20px auto;
      }
     }//media query ends
@@ -27,13 +27,11 @@
 
 .video-section{
 
-    @media(min-width: 900px){
-        height: 70vh;
-        
+    @media(min-width: 900px){        
 
      video{
-        height: 60vh;
-        width: auto;
+        width: 60vw;
+        height: auto;
      }
     }//media query ends
 }
