@@ -29,3 +29,34 @@
     }
 
 }
+/*================= Media Query ==============*/
+
+.about-section{
+    @media(min-width: 500px){
+    
+        h2{
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+    
+        p{
+            font-size: 16px;
+        }
+    
+    }//end media
+    }//end about
+
+
+.about-section{
+@media(min-width: 900px){
+
+    h2{
+        font-size: 36px;
+        padding: 10vh 15vw 0;
+        margin-bottom: 20px;
+    }
+
+    
+
+}//end media
+}//end about

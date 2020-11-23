@@ -13,3 +13,28 @@
     
 }
 
+.video-section{
+ 
+    @media(min-width: 500px){
+     video{
+        height: 50vh;
+        width: auto;
+        margin: 20px auto;
+     }
+    }//media query ends
+}
+
+
+.video-section{
+
+    @media(min-width: 900px){
+        height: 70vh;
+        
+
+     video{
+        height: 60vh;
+        width: auto;
+     }
+    }//media query ends
+}
+

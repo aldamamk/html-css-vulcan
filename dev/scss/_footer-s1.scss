@@ -27,3 +27,38 @@
     }
 
 }
+//============= tablet version =============
+
+.footer-section1{
+
+    @media(min-width:500px){
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+
+    input{
+        width: 200px;
+    }
+
+    h4{
+        padding: 0;
+        padding-top: 6px;
+        
+        font-size: 20px;
+    }
+
+}//end media query
+}
+
+
+//============= desktop version =============
+.footer-section1{
+@media(min-width:900px){
+    input{
+        width: 25vw;
+    }
+
+
+}
+}

@@ -4,8 +4,26 @@
 .about-section{//about banner
    
     background-image: url("../images/bg-section-about-us.jpg");
-    object-fit: cover;
     height: 100vh;
+    object-fit: cover;
     width: 100%;
 }
 
+
+.about-section{
+    @media(min-width:500px){
+       background-position: center ;
+
+
+    
+    }//end media
+    }//end about
+
+
+.about-section{
+    @media(min-width:900px){
+        background-position: right;
+        height: 70vh;
+
+    }//end media
+    }//end about
