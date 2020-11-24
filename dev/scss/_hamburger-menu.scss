@@ -2,7 +2,7 @@
 
 
 .menu {
-	position: relative;
+	position: absolute;
 	top: 0;
 	left: 0;
 	background-color: $navBoxColor; opacity: .6;
@@ -99,6 +99,11 @@
 @media only screen and (min-width:500px) {
 	.menu{
 		display: none;
+	}
+
+	.navbar-menu{
+		display: block;
+		height: 150px;
 	}
 
 }

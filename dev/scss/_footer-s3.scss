@@ -1,12 +1,12 @@
 .light-blue-wave{
-    height: auto;
-    width: 9000px;
+    height: 150px;
+    width: 100%;
     position: relative;
     left: 0;
     top: -20px;    
 }
 footer{
-    
+    background-color: $blueColor;
     text-align: center;
 
     li, p{
@@ -17,13 +17,10 @@ footer{
     }
 
     .footer-section3{
-        background-color: $blueColor;
         height: 30vh;
         position: relative;
         padding-bottom: 20px;
         top: -20px;
-        
-        
 
         .footer-nested{
             display: block;
@@ -50,9 +47,9 @@ footer{
 .footer-section3{//tablet
 
     @media (min-width:500px) {
-
         .light-blue-wave{
-            top: -35px;    
+            top: -35px; 
+            height: 150px; 
         }
 
         ul{
@@ -84,4 +81,5 @@ footer{
         .light-blue-wave{
             top: -80px;    
         }
-}   }
+}   
+}
