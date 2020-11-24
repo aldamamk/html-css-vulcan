@@ -116,7 +116,9 @@ form{
    
     form{
           
-       
+       label{
+           padding-left: 5px;
+       }
 
         .form-select-group:after {
             content: "";
