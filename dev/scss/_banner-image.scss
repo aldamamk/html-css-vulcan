@@ -4,7 +4,7 @@
 .about-section{//about banner
    
     background-image: url("../images/bg-section-about-us.jpg");
-    height: 80vh;
+    height: 500px;
     width: 100%;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -14,10 +14,7 @@
 
 .about-section{
     @media(min-width:500px){
-       background-position: center ;
-
-
-    
+       background-position: center ;    
     }//end media
     }//end about
 
@@ -25,7 +22,6 @@
 .about-section{
     @media(min-width:900px){
         background-position: right;
-        height: 70vh;
 
     }//end media
     }//end about
