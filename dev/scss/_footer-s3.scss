@@ -6,7 +6,7 @@
     top: -30px;    
 }
 footer{
-    background-color: $blueColor;
+    background-color:#109EDC;
     text-align: center;
 
 
@@ -33,7 +33,6 @@ footer{
 }
 
     .footer-contact{
-        
         ul{
         display: flex;
         justify-content: space-evenly;
@@ -51,6 +50,13 @@ footer{
 
         ul{
             display: row;
+        }
+
+      
+
+        
+        .footer-logo{
+            display: flex-s
         }
 
 }   }
