@@ -1,5 +1,5 @@
 .white-background{
-    z-index: 2000;
+
     .white-wave{
         width: 1920px;
         height: auto;
@@ -8,8 +8,6 @@
         left: 0;
         top: -30px;
         z-index: 2001;
-        
-
     }
 
     a{
@@ -66,12 +64,12 @@
 .white-background{
 
 @media only screen and (min-width: 500px){
-    margin-top: 20px;
 
-    /*.white-wave{
+
+    .white-wave{
         position: relative;
-        top: 5px;
-    }*/
+        top: -40px;
+    }
     h2{
         padding-top: 20px;
     }
@@ -109,6 +107,7 @@
         }
 
     
+    
 
     }//end .product-placement
 
@@ -120,8 +119,8 @@
 .white-background{
     
 @media (min-width: 900px){
-    margin-top: 20px;
-
+   
+    padding-bottom: 50px;
     h2{
         padding: 0 20%;
     }
@@ -129,10 +128,10 @@
     p{
         margin: 0 15%;
     }
-    /*.white-wave{
-        top: -20px;
+   .white-wave{
+        top: -30px;
 
-    }*/
+    }
     .product-placement{
 
         h3{
@@ -143,3 +142,12 @@
 }//end m-q
 
 }//end .w-b
+
+.product-placement{
+    
+    @media (min-width: 1450px){
+
+        img{
+            margin-left: 60px;
+        }
+    }}

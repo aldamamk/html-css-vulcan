@@ -1,13 +1,12 @@
 .light-blue-wave{
-    height: 50px;
-    width: 100%;
+    height: auto;
+    width: 9000px;
     position: relative;
     left: 0;
-    top:-40px;
-    object-fit: cover;
-    
+    top: -20px;    
 }
 footer{
+    
     text-align: center;
 
     li, p{
@@ -18,7 +17,11 @@ footer{
     }
 
     .footer-section3{
-        background-color: #0099cc;
+        background-color: $blueColor;
+        height: 30vh;
+        position: relative;
+        padding-bottom: 20px;
+        top: -20px;
         
         
 
@@ -44,9 +47,41 @@ footer{
 }
 
 
-.footer-section3{
+.footer-section3{//tablet
+
     @media (min-width:500px) {
+
+        .light-blue-wave{
+            top: -35px;    
+        }
+
+        ul{
+            display: row;
+        }
+
+}   }
+
+
+.footer-section3{//desktop
+    @media (min-width:900px) {
         position: relative;
 
-    }
-}
+        .light-blue-wave{
+            top: -40px;    
+        }
+
+        .footer-group{
+            padding-bottom: 0;
+             
+         }
+}   }
+
+
+.footer-section3{
+    @media (min-width:1679px) {
+        
+
+        .light-blue-wave{
+            top: -80px;    
+        }
+}   }

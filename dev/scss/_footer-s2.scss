@@ -41,8 +41,8 @@
     h5{
         color: $whiteColor;
         font-weight: 600;
-        font-size: 30px;
-        padding: 20% 10% 20%; 
+        font-size: 28px;
+        padding: 30% 10% 20%; 
 
     }
 
@@ -61,22 +61,36 @@
 //============= wide version =============
 
 .footer-section2{
+
     @media (min-width:500px) {
+        height: 50vh;
 
         .map-background{
+            object-fit: cover;
             width: 50%;
             position: relative;
             left: 50%;
-            height:330px;
-        }
+            height:60vh;
 
+            h5{
+                font-size: 24px;
+            }
+        }
+        
         .footer-contact-us{
-            width: 50%;
+            width: 55%;
             position: relative;
-            top: -330px;
-            height: 330px;
-        }
+            top: -60vh;
+            height: 60vh;
 
+
+            h5{
+                font-size: 24px;
+                padding: 25% 15% 10%;
+      
+            }
+        }
+        
         a{
             background-color: $blueColor;
             color: white;
@@ -87,3 +101,36 @@
 
 }
 
+.footer-section2{
+
+    @media (min-width:900px) {
+        .footer-contact-us{
+
+        h5{
+            padding: 20% 15% 5%;
+        }}
+
+        .map-background{
+            padding:0;
+            h5{
+                padding: 20% 15% 5%;
+                margin: 0;
+            }
+
+            a{
+                padding: 15px
+            }
+        }
+    
+    }}
+
+
+    
+.footer-section2{
+
+    @media (min-width:1365px) {
+        .map-background{
+            background-size: 100%;
+        }
+
+}   }
