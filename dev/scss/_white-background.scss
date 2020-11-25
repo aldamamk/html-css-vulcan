@@ -129,7 +129,7 @@
         margin: 0 15%;
     }
    .white-wave{
-        top: -30px;
+        top: -25px;
 
     }
     .product-placement{
@@ -150,4 +150,17 @@
         img{
             margin-left: 60px;
         }
+
+        
+        
+        
     }}
+
+.white-background{
+    @media (min-width:1500px){
+        .white-wave{
+                    top: -40px;
+            
+                }
+
+}    }

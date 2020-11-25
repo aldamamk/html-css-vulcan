@@ -28,9 +28,13 @@ footer{
            padding-bottom: 20px;
             
         }
-        
-      }  
+        .footer-image{
+            width: 200px;
+            height: auto;
+        }
+    } 
 }
+
 
     .footer-contact{
         ul{
@@ -41,22 +45,40 @@ footer{
 
 
 .footer-section3{//tablet
-
     @media (min-width:500px) {
+        height: 120px;
         .light-blue-wave{
             height: 100px;
             top: -70px; 
         }
-
-        ul{
-            display: row;
+        .footer-nested{
+            position: relative;
+            top: -160px;
+        }
+        .footer-c-c{
+            position: relative;
+            left: 40%;
+            width: 60%;
+            
+        }
+        .footer-logo{
+            position: relative;
+            top:60px ;
+            left: 0px;
         }
 
-      
-
-        
-        .footer-logo{
-            display: flex-s
+        li, p{
+            font-size: 16px;
         }
 
 }   }
+
+
+.footer-section3{//tablet
+    @media (max-width:500px) {
+        .footer-image{
+            width: 100px;
+            height: auto;
+        }
+
+    }}
