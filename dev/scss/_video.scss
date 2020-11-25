@@ -2,7 +2,7 @@
     background-color: $blueColor;
     text-align: center;
 
-    video{
+    iframe{
         margin: 10% auto;
         padding:0 10px;
         border:15px $videoBorder solid ;
@@ -16,22 +16,11 @@
 .video-section{
  
     @media(min-width: 500px){
-     video{
-        height: auto;
-        width: 70vw;
+        height:500px;
+     iframe{
+        height: 400px;
+        width: 600px;
         margin: 30px auto;
-     }
-    }//media query ends
-}
-
-
-.video-section{
-
-    @media(min-width: 900px){        
-
-     video{
-        width: 60vw;
-        height: auto;
      }
     }//media query ends
 }
