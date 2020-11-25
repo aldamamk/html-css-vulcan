@@ -65,6 +65,7 @@ footer{
             position: relative;
             top:60px ;
             left: 0px;
+            padding-right: 15px;
         }
 
         li, p{
@@ -75,10 +76,9 @@ footer{
 
 
 .footer-section3{//tablet
-    @media (max-width:500px) {
-        .footer-image{
-            width: 100px;
-            height: auto;
+    @media (max-width:900px) {
+        .footer-c-c{
+        width: 80%;
+        display: inline-block;
         }
-
     }}
