@@ -74,7 +74,8 @@
 	padding: 0 20px;
 	letter-spacing: 1px;
 	text-decoration: none;
-    transition: 0.5s;
+	transition: 0.5s;
+	text-align: left;
 }
 .menu-listing li a:hover { background-color: $blueColor;color: #fff;transition: 0.7s; }
 
